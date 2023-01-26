@@ -6,7 +6,10 @@ on:
     branches: [ main ]
 jobs: 
   build: 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [ 14, 16, 18 ]
     steps: 
       - uses: actions/checkout@v3
       - name: Use Node.js version 16
