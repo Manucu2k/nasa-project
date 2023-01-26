@@ -23,7 +23,8 @@
     "axios": "^1.2.3",
     "concurrently": "^7.5.0",
     "mongoose": "^6.8.4",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.0"
   },
   "description": ""
 }
