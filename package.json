@@ -24,9 +24,7 @@
     "concurrently": "^7.5.0",
     "mongoose": "^6.8.4",
     "morgan": "^1.10.0",
-    "uuid": "^9.0.0"
-  },
-  "devDependencies": {
+    "uuid": "^9.0.0",
     "node-sass": "^7.0.0"
   },
   "description": ""
