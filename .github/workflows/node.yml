@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ 14, 16, 18 ]
+        node: [ 16 ]
     steps: 
       - uses: actions/checkout@v3
       - name: Use Node.js version 16
