@@ -9,7 +9,7 @@ jobs:
     env:
       CI: true
       MONGO_URL: mongodb://localhost/test
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     strategy:
       matrix:
         node: [ 16 ]
